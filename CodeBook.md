@@ -1,4 +1,4 @@
-# Code Book for understanding the script variables
+## Code Book for understanding the script variables
 
 # Variables in the tidy data
  There are 180 rows and 8 columns in the tidydata. The first two variables are the dimensions on which the group by is performed which is the subject and activity name. The rest of the variables are acceleration and gyro variables on X,Y,Z axis.
