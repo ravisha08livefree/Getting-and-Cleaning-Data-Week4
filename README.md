@@ -21,11 +21,11 @@ Data zip file has to be downloaded from the link provided in the assignmnet and 
 - 'test/y_test.txt': Test labels.
 
 # How the script works
-Step1: Reading the data from the above mentioned files
-Step2: Merging the data using Rbind and Cbind is such a manner that while merging, there rows and columns are in exact sync.
-Step3: Exttracting the columns on which the mean and standard deviation is to be calculated using subsetting
-Step4: Renaming the columns with appropriate description using colnames and setnames function
-Step5: Calculating mean and std deviation on the basis of subject and activity using the aggregate function
+- Step1: Reading the data from the above mentioned files
+- Step2: Merging the data using Rbind and Cbind is such a manner that while merging, there rows and columns are in exact sync.
+- Step3: Exttracting the columns on which the mean and standard deviation is to be calculated using subsetting
+- Step4: Renaming the columns with appropriate description using colnames and setnames function
+- Step5: Calculating mean and std deviation on the basis of subject and activity using the aggregate function
 
 # Final tidydata
 writing the cleaned data into tidydata.txt using the write.table command
